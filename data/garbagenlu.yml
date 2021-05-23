@@ -1,0 +1,13 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+- intent: restaurant_search
+  examples: |
+    - Find me restaturant
+    - [Pune](location)
+    - [South Indian](cuisine)
+- intent: send_mail
+  examples: |
+    - sis.123@gmail.com
